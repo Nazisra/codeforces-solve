@@ -24,6 +24,7 @@ public:
         else{
             ans=totalfood/N;
             ans+=1;
+            return ans;
         }
         
         if(ans<=buyingdays)
