@@ -3,6 +3,8 @@
 //https://www.geeksforgeeks.org/problems/check-if-it-is-possible-to-survive-on-island4922/1
 
 
+//Nazmul islam rahad
+
 
 
 
@@ -20,11 +22,11 @@ public:
         int totalfood=S*M;
         int ans=0;
         
-        if(totalfood%N) return ans= totalfood/N;
+        if(totalfood%N==0)  ans = totalfood/N;
         else{
             ans=totalfood/N;
-            ans+=1;
-            return ans;
+            ans=ans+1;
+            
         }
         
         if(ans<=buyingdays)
