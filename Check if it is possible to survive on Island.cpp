@@ -48,9 +48,9 @@ public:
 
 
 int main(){
-    int t;
-    cin>>t;
-    while(t--){
+    int tt;
+    cin>>tt;
+    while(tt--){
         int S, N, M;
         cin>> S >> N >> M;
         
